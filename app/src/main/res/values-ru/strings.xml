@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Крестики-Нолики</string>
+
+    <!-- activity_main -->
+    <string name="New_game">Новая Игра</string>
+    <string name="Statistic">Статистика</string>
+    <string name="Quit">Выход</string>
+
+    <!-- activity_game -->
+    <string name="status_bar">Статус: Ходят крестики</string>
+    <string name="status_bar_O">Статус: Ходят нолики</string>
+    <string name="X_wins_label">X_победы:</string>
+    <string name="O_wins_label">O_победы:</string>
+    <string name="Draws_label">Ничьи:</string>
+
+    <!-- activity_stats -->
+    <string name="Noughts_wins">Побед ноликов:</string>
+    <string name="Croses_wins">Побед крестиков:</string>
+    <string name="Draws">Ничьих:</string>
+    <string name="btn_reset">Сброс Результатов</string>
+    <string name="btn_back">Назад в меню</string>
+
+    <!-- Messages_strings -->
+    <string name="Draw_title">Ничья!</string>
+    <string name="Draw_new_game">Начать новую игру?</string>
+
+    <string name="Victory_title">Победа!</string>
+    <string name="Player">Игрок </string>
+    <string name="Victory_message"> победил! Хотите сыграть снова?</string>
+
+    <string name="No">Нет</string>
+    <string name="Yes">Да</string>
+
+</resources>

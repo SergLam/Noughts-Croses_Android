@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="10dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingTop="10dp"
+    tools:context="com.samurai.sergey.noughts_and_croses.StatsActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/Noughts_wins"
+        android:textAlignment="center"
+        android:id="@+id/noughts_label"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/noughts_text"
+        android:layout_below="@+id/noughts_label"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/Croses_wins"
+        android:id="@+id/croses_label"
+        android:layout_below="@+id/noughts_text"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:id="@+id/croses_text"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_below="@+id/croses_label"
+        android:layout_alignLeft="@+id/noughts_text"
+        android:layout_alignStart="@+id/noughts_text" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/Draws"
+        android:id="@+id/draws_label"
+        android:layout_below="@+id/croses_text"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/draws_text"
+        android:layout_below="@+id/draws_label"
+        android:layout_alignLeft="@+id/croses_text"
+        android:layout_alignStart="@+id/croses_text"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_reset"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/reset_button"
+        android:onClick="ResetStat"
+        android:layout_below="@+id/draws_text"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_back"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/button_back"
+        android:onClick="BackToMenu"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/reset_button"
+        android:layout_alignStart="@+id/reset_button" />
+
+</RelativeLayout>

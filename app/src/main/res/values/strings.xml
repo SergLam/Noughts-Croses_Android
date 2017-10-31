@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Noughts and Croses</string>
+
+    <!-- activity_main -->
+    <string name="New_game">New Game</string>
+    <string name="Statistic">Statistic</string>
+    <string name="Quit">Quite</string>
+
+    <!-- activity_game -->
+    <string name="status_bar">Status: Croses Turn</string>
+    <string name="status_bar_O">Status: Noughts Turn</string>
+    <string name="X_wins_label">X_wins:</string>
+    <string name="O_wins_label">O_wins:</string>
+    <string name="Draws_label">Draws:</string>
+
+    <!-- activity_stats -->
+    <string name="Noughts_wins">Noughts wins:</string>
+    <string name="Croses_wins">Croses wins:</string>
+    <string name="Draws">Draws:</string>
+    <string name="btn_reset">Reset Stats</string>
+    <string name="btn_back">Back to menu</string>
+
+    <!-- Messages_strings -->
+    <string name="Draw_title">It is a draw!</string>
+    <string name="Draw_new_game">Start new game?</string>
+
+    <string name="Victory_title">Victory!</string>
+    <string name="Player">Player </string>
+    <string name="Victory_message"> has won! Would you like to play again?</string>
+
+    <string name="No">No</string>
+    <string name="Yes">Yes</string>
+
+</resources>

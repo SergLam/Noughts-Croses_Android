@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Nullen und Kreuze</string>
+
+    <!-- activity_main -->
+    <string name="New_game">Neues Spiel</string>
+    <string name="Statistic">Statistiken</string>
+    <string name="Quit">Ausfahrt</string>
+
+    <!-- activity_game -->
+    <string name="status_bar">Status: Kurs Kreuze</string>
+    <string name="status_bar_O">Status: Kurs Nullen</string>
+    <string name="X_wins_label">X_Siegen:</string>
+    <string name="O_wins_label">O_Siegen:</string>
+    <string name="Draws_label">Unentschieden:</string>
+
+    <!-- activity_stats -->
+    <string name="Noughts_wins">Sieg Nullen:</string>
+    <string name="Croses_wins">Sieg Kreuze:</string>
+    <string name="Draws">Unentschieden:</string>
+    <string name="btn_reset">Ergebnisse löschen</string>
+    <string name="btn_back">Zurück zum Menü</string>
+
+    <!-- Messages_strings -->
+    <string name="Draw_title">Unentschieden!</string>
+    <string name="Draw_new_game">Starten Sie ein neues Spiel?</string>
+
+    <string name="Victory_title">Sieg!</string>
+    <string name="Player">Spieler </string>
+    <string name="Victory_message"> gewonnen! Sie wollen, wieder zu spielen?</string>
+
+    <string name="No">Nein</string>
+    <string name="Yes">Ja</string>
+
+</resources>
