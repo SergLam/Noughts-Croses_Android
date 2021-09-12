@@ -4,7 +4,7 @@
     <!-- activity_main -->
     <string name="New_game">New Game</string>
     <string name="Statistic">Statistic</string>
-    <string name="Quit">Quite</string>
+    <string name="Quit">Quit</string>
 
     <!-- activity_game -->
     <string name="status_bar">Status: Croses Turn</string>
